@@ -1,0 +1,281 @@
+body{
+	margin: 0;
+	background: #FFF5EE;
+}
+
+input[type="checkbox"]{
+	width: 20px;
+	height: 20px;
+	cursor: pointer;
+	accent-color: #d40050;
+}
+
+	/*----- topo index -----*/
+.top {
+	background: #000;
+	color: white;
+	padding: 18px 24px;
+	justify-content: space-between;
+	align-items: center;
+	flex-wrap: wrap;
+    
+}
+
+.top h1{
+	margin: 0;
+	font-size: 1.6rem;
+	color: #C8A654;
+	border-top: 1px solid #C8A654;
+    
+
+}
+
+.top nav a {
+	color: white;
+	margin-left: 15px;
+	text-decoration: none;
+	font-weight: 500;
+}
+
+.top nav a:hover {
+	color: #FFD700;
+	text-decoration: underline;
+}
+
+	/*----- fim -----*/
+
+	
+
+
+	/*----- Container -----*/
+
+.container {
+	max-width: 1000px;
+	margin: 30px auto;
+	padding: 0 20px;
+	flex-wrap: wrap;
+	text-shadow: 1px 6px 6px goldenrod;
+}
+
+
+
+
+	/*----- fim -----*/
+
+
+
+	/*----- filtros -----*/
+
+.filters{
+	width: 200px;
+}
+
+.filters textarea, .filters input, .filters select {
+	width: 100%;
+	padding: 8px;
+	margin-bottom: 8px;
+	border: 2px solid;
+	border-radius: 6px;
+
+}
+
+	/*----- fim -----*/
+
+
+		/*----- grid de produtos -----*/
+
+.grid {
+	flex: 1;
+	display: grid;
+	grid-template-columns: repeat(auto-fit, minmax(230px, 3fr));
+	gap: 18px;
+
+}
+
+	/*----- fim -----*/
+
+
+
+	/*----- card de joias -----*/
+
+.card {
+	padding: 12px;
+	border-radius: 8px;
+	border: 2px solid #C8A654;
+	text-shadow: 2px 6px 6px goldenrod;
+	text-align: center;
+	transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.card:hover {
+	transform: translateY(-3px);
+	box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.card img{
+	width: 100%;
+	height: 180px;
+	object-fit: cover;
+	border-radius: 6px;
+	margin-bottom: 10px;
+}
+
+	/*----- fim -----*/
+
+
+	/*----- Contatos -----*/
+ .cont{
+    font-size: 1.3rem;
+    gap: 10px;
+  }
+
+  .cont a{
+     text-decoration: none;
+     display: block;
+     margin-bottom: 14px;
+  }
+  /*----- fim -----*/
+
+
+
+
+	/*----- detalhes de produtos -----*/
+
+.container.detail{
+	display:flex;
+	flex-wrap: wrap;
+	gap:20px;
+}
+
+.detail-left img{
+	width:420px;
+	max-width:100%;
+	border-radius:8px;
+}
+	/*----- fim -----*/
+
+
+
+	/*----- listagem -----*/
+
+.list .item{
+	display:flex;
+	align-items:center;
+	gap:12px;
+	padding:10px;
+	border-bottom:1px solid #eee;
+}
+
+
+.actions a{
+	color: #C8A654;
+	text-decoration:none;
+	font-weight: 500;
+}
+	/*----- fim -----*/
+
+
+
+	/*----- login e mensagem -----*/
+
+.loginbox{
+	max-width: 420px;
+	margin: 100px  auto;
+	padding:50px;
+	border:1px solid #eee;
+	border-radius:8px;
+	border: 2px solid #000;
+	background: #c8A654;
+	text-align: center;
+
+}
+
+.msg{
+	padding:10px;
+	border-radius:6px;
+	margin-bottom:12px;
+	font-size: 0.95rem;
+}
+
+.msg.success{
+	background:#e9f7ef;
+	color:#1b6f3a;
+}
+
+.msg.error{
+	background:#fdecea;
+	color:#61121b;
+}
+	/*----- fim -----*/
+
+
+	/*----- configurações de botões gerais -----*/
+
+.btn{
+	display:inline-block;
+	padding:8px 12px;
+	background:#DAA520;
+	color:#111;
+	text-decoration:none;
+	border-radius:6px;
+	font-weight: 500;
+	transition: background 0.3s;
+}
+.btn2{
+	padding:5px 12px;
+	background:#DAA520;
+	border-radius:4px;
+	
+}
+
+.btn:hover{
+	background: #b59745;
+}
+
+
+.btnpes {
+	background:#DAA520;
+	color:#111;
+	border-radius:6px;
+}
+
+#btnTop {
+	position: fixed;
+	bottom: 25px;
+	right: 25px;
+	background: #C8A654;
+	color: #111;
+	border: none;
+	border-radius: 50%;
+	width: 48px;
+	height: 48px;
+	font-size: 22px;
+	cursor: pointer;
+	display: none;
+	box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+}
+#btnTop:hover{
+	background: #b59745;
+}
+
+	/*----- fim -----*/
+
+
+
+
+	/*----- rodape -----*/
+.foot {
+    position: fixed;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100%;
+    text-align: center;
+    padding: 12px 0;
+    font-size: 1rem;
+    color: #C8A654;
+    border-top: 1px solid #C8A654;
+    background: rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(4px); 
+}
