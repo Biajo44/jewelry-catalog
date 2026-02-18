@@ -1,6 +1,8 @@
 # 📌 Catálogo de Joias  
 
-Este projeto é um catálogo digital de joias desenvolvido com o objetivo acadêmico e também para uso como vitrine online.
+Este projeto é um catálogo digital de joias, elaborado com finalidade acadêmica, 
+com o propósito de demonstrar a aplicação prática dos conteúdos estudados durante o semestre.
+O projeto não está atualmente hospedado e não possui domínio registrado.
 
 ---
 
@@ -13,3 +15,8 @@ Este projeto é um catálogo digital de joias desenvolvido com o objetivo acadê
 - MySQL  
 
 ---
+
+## Autora 👩‍💻
+
+Joelma Dias
+Estudante de Análise e Desenvolvimento de sistemas.
